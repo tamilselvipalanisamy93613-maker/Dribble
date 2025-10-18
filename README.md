@@ -70,47 +70,106 @@ dribble.css
 
 dribble.html
 
-<!-- Dark Theme Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <!-- Dribbble brand on left -->
-      <a class="navbar-brand" href="#">Dribbble</a>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Project</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Dribble</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Shots</a></li>
+                    <li><a href="#">Designers</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">...</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#">Sign in</a></li>
+                </ul>
+                
+            </div>
+        </nav>
+        <div class="bg-dark text-center">
+            <p>What are you working on? Dribble is show and tell for designers.
+                <button type="button" class="btn btn-secondary">Learn more</button>
+                <button type="button" class="btn btn-danger">Sign up</button></p>
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"><a href="#">Popular</a>
+                        <ul class="dropdown-menu" >
+                			<li><a href="#">1.1</a></li>
+                			<li><a href="#">1.2</a></li>
+                			<li><a href="#">1.3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#">Shots</a>
+                        <ul class="dropdown-menu">
+                			<li><a href="#">2.1</a></li>
+                			<li><a href="#">2.2</a></li>
+                			<li><a href="#">2.3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#">Now</a>
+                        <ul class="dropdown-menu">
+                			<li><a href="#">3.1</a></li>
+                			<li><a href="#">3.2</a></li>
+                			<li><a href="#">3.3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card border-dark text-center">
+                    <img src="1st img.jpg " class="card-img-top" style="height:150px; object-fit:cover;">
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="card border-dark text-center">
+                    <img src="2nd img.jpg" class="img-fluid rounded" style="height:150px; object-fit:cover;">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-dark text-center">
+                    <img src="3rd img.jpg" class="img-fluid rounded" style="height:150px; object-fit:cover;">
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="card border-dark text-center">
+                    <img src="4th img.jpg" class="img-fluid rounded" style="height:150px; object-fit:cover;">
+                </div>
+            </div>
+          </div>
+        </div>
+        </div>
 
-      <!-- Navbar items -->
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ms-3"></ul>
-      </div>
-    </div>
-  </nav>
 
-  <!-- Top Bar for Sign In / Sign Up -->
-  <div class="d-flex justify-content-end p-3 bg-white">
-    <a href="#" class="me-3 text-decoration-none">Sign in</a>
-    <a href="#" class="btn btn-signup">Sign up</a>
-  </div>
-
- 
-
-  <img src="1st img.jpg"height="200",width="200"style="display:">
-<img src="2nd img.jpg "height="200",width="200"style="display:;">
- <img src="3rd img.jpg"height="200",width="200"style="display:">
- <img src="4th img.jpg "height="200",width="200"style="display:">
- <img src="5th img.jpg "height="200",width="200"style="display: ">
- <img src="6th img.jpg "height="200",width="200"style="display: ">
- <img src="7th img.jpg "height="200",width="200"style="display: ">
- <img src="8th img.jpg"height="200",width="200"style="display: ">
- <img src="9th img.jpg "height="200",width="200"style="display: ">
- <img src="10th img.jpg "height="200",width="200"style="display: ">
- <img src="11th img.jpg "height="200",width="200"style="display: ">
-      
-  </div>
-
-</body>
+        
+        <footer class="copyrights text-center">
+            &copy; TAMILSELVI-25017628
+        </footer>
+    </body>
 </html>
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (67).png>)
+![alt text](<Screenshot (84).png>)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
